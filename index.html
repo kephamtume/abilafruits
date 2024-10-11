@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abila Apples ke</title>
+
+    <link rel="stylesheet" href="http" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo"
+        ><i class="fas fa-shopping-basket"></i>Abila Apples</a
+      >
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features">features</a>
+        <a href="#cart">products</a>
+        <a href="#categories">categories</a>
+        <a href="#review">review</a>
+        <a href="#blogs">blogs</a>
+      </nav>
+      <div class="carty">
+        <div class="fa fa-bars" id="menu-btn"></div>
+        <div class="fa fa-search" id="search-btn"></div>
+        <div class="fa fa-user" id="login-btn"></div>
+        <div>
+          <i class="fa fa-shopping-cart" id="cart-btn"></i>
+          <p id="count">0</p>
+        </div>
+       
+      </div>
+      <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here" />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+      <div class="shopping-cart">
+        <div class="">
+          <div class="head"><p>My Cart</p></div>
+          <div id="cartItem">Your cart is empty</div>
+          <div class="foot">
+            <h3>Total</h3>
+            <!-- <a class="btn" id="close"> close</a> -->
+            <h2 id="total">$ 0.00</h2>
+            <a href="#cart" class="btn" id="shop-more">shop more</a>
+            <a class="btn" id="close"> close</a>
+          </div>
+          
+        </div> 
+      </div>
+      <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box" />
+        <input type="password" placeholder="your password" class="box" />
+        <p>forget your password <a href="#">click here</a></p>
+        <p>dont have an account<a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn" />
+      </form>
+    </header>
+    <!-- header section ends -->
+    <!-- home section starts -->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>fresh and <span>organic</span> fruits for your</h3>
+        <p>wondering where to get fresh fruits.</p>
+        <a href="#products" class="btn">shop now</a>
+      </div>
+    </section>
+    <!-- home section ends -->
+    <!-- features -->
+    <section class="features" id="features">
+      <h1 class="heading">our <span>features</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="assets/about-img-1.png" />
+          <h3>fresh apples,grapes and oranges</h3>
+          <p>
+            you can place your order in any of these locations and you will find
+            you fruits delivered
+          </p>
+          <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+          <img src="assets/about-img-2.png" alt="" />
+          <h3>present in Nairobi,Nakuru,Kitale</h3>
+          <p>
+            you can place your order in any of these locations and we will
+            deliver
+          </p>
+          <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+          <img
+            src="assets/Leonardo_Phoenix_Create_an_image_of_a_joyful_African_child_age_1.jpg"
+          />
+          <h3>easy payments</h3>
+          <p>
+            you can place your order in any of these locations and you will find
+            you fruits delivered
+          </p>
+          <a href="#" class="btn">read more</a>
+        </div>
+      </div>
+    </section>
+    <!-- features -->
+    <!-- products section starts -->
+    <section class="products" id="products">
+      <h1 class="heading">our <span>products</span></h1>
+
+      <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="Apples assetts/orange.png" alt="" />
+            <h3>fresh oranges</h3>
+            <div class="price">ksh25/- - 30/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#cart" class="btn">shop now</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="Apples assetts/pink lady 1.webp" alt="" />
+            <h3>sweet crunchy apples</h3>
+            <div class="price">ksh25/- - 30/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#cart" class="btn">shop now</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="Apples assetts/blue grapes.png" alt="" />
+            <h3>fresh grapes</h3>
+            <div class="price">ksh25/- - 30/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#cart" class="btn">shop now</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="Apples assetts/banana.png" alt="" />
+            <h3>fresh bananas</h3>
+            <div class="price">ksh25/- - 30/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#cart" class="btn">shop now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="assets/cover 3.jpg" alt="" />
+            <h3>crisp rep apples</h3>
+            <div class="price">ksh25/- - 30/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#cart" class="btn">shop now</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="assets/cat-1.png" alt="" />
+            <h3>get it all</h3>
+            <div class="price">ksh25/- - 30/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#cart" class="btn">shop now</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="Apples assetts/plate of apples.jpg" alt="" />
+            <h3>fresh,crunchy apples</h3>
+            <div class="price">ksh25/- - 30/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <a href="#cart" class="btn">shop now</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="Apples assetts/watermelon.png" alt="" />
+            <h3>juicu water melons</h3>
+            <div class="price">ksh25/- - 30/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <a href="#cart" class="btn">shop now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- products section ends -->
+
+    <section class="cart" id="cart"></section>
+      <h1 class="heading">enjoy our <span>products</span></h1>
+
+      <div class="container">
+        <div id="root"></div>
+      
+      </div>
+     
+    </section>
+    <!-- categories sectiom start -->
+    <section class="categories" id="categories">
+      <h1 class="heading">product <span>categories</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="Apples assetts/pink lady 3.webp" alt="" />
+          <h3>pink lady apples</h3>
+          <p>upto 45% off</p>
+          <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+          <img src="Apples assetts/orange cover.webp" alt="" />
+          <h3>imported organic oranges</h3>
+          <p>upto 45% off</p>
+          <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+          <img src="Apples assetts/blue grapes.png" alt="" />
+          <h3>juicy grapes</h3>
+          <p>upto 45% off</p>
+          <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+          <img src="Apples assetts/apple juice.jpg" alt="" />
+          <h3>fresh juice</h3>
+          <p>upto 45% off</p>
+          <a href="#" class="btn">shop now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- categories section ends -->
+
+    <!-- review section starts -->
+    <section class="review" id="review">
+      <h1 class="heading">customer's <span>review</span></h1>
+      <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="Apples assetts/kevin pic.jpg" width="193" height="190" />
+            <p>
+              I started buying fruits from abila apples in 2022 and they have
+              been reliable.
+            </p>
+            <h3>Mr. Kepha Oduk</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="Apples assetts/pic-3.png" alt="" />
+            <p>
+              Abila apples have been my supplier for my grocery shop all year
+              round for more than 4 years. My business is stable thanks to their
+              consistency in the market.
+            </p>
+            <h3>mr. amos owour</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="Apples assetts/pic-4.png" alt="" />
+            <p>
+              Since I started placing my orders to Abila apples, they have been
+              so reliable and delivering them at the expected time. I am
+              satisfied with their service.
+            </p>
+            <h3>Miss Jackline</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="Apples assetts/pic-1.png" alt="" />
+            <p>
+              I enjoy crisp red apples supplied by the Abila apples. They are my
+              number 1 supplier.
+            </p>
+            <h3>Sir Edwin Karanja</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section ends -->
+    <!-- blogs section begins -->
+    <section class="blogs" id="blogs">
+      <h1 class="heading">our <span>blogs</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="Apples assetts/strawberry.png" alt="" />
+          <div class="content">
+            <div class="icons">
+              <a href="#"> <i class="fas fa-user"></i> by user</a>
+              <a href="#"> <i class="fas fa-calender"></i> 1st sep, 2024</a>
+            </div>
+            <h3>fresh and organic vegetables and fruits</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+              laudantium sed debitis corporis, harum sequi quam cum itaque
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="Apples assetts/lichi.png" alt="" />
+          <div class="content">
+            <div class="icons">
+              <a href="#"> <i class="fas fa-user"></i> by user</a>
+              <a href="#"> <i class="fas fa-calender"></i> 1st sep, 2024</a>
+            </div>
+            <h3>fresh and organic vegetables and fruits</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+              laudantium sed debitis corporis, harum sequi quam cum itaque
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="Apples assetts/value addition.jpg" alt="" />
+          <div class="content">
+            <div class="icons">
+              <a href="#"> <i class="fas fa-user"></i> by user</a>
+              <a href="#"> <i class="fas fa-calender"></i> 1st sep, 2024</a>
+            </div>
+            <h3>fresh and organic vegetables and fruits</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+              laudantium sed debitis corporis, harum sequi quam cum itaque
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blogs section ends -->
+    <!-- footer section starts -->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Abila <i class="fas fa-shopping-cart"></i></h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, vero
+            .
+          </p>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>Contact info</h3>
+          <a href="#" class="links"
+            ><i class="fas fa-arrow-right"></i> +123-456-780</a
+          >
+          <a href="#" class="links"
+            ><i class="fas fa-phone"></i> +254 705 496 755</a
+          >
+          <a href="#" class="links"
+            ><i class="fas fa-envelope"></i>abilaapples@gmail.com</a
+          >
+          <a href="#" class="links"
+            ><i class="fas fa-map-marker-alt"></i>Nairobi, Kenya</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>quick contacts</h3>
+          <a href="#" class="links"><i class="fas fa-arrow-right"></i> home</a>
+          <a href="#features" class="links"
+            ><i class="fas fa-arrow-right"></i> features</a
+          >
+          <a href="#products" class="links"
+            ><i class="fas fa-arrow-right"></i> products</a
+          >
+          <a href="#categories" class="links"
+            ><i class="fas fa-arrow-right"></i> categories</a
+          >
+          <a href="#review" class="links"
+            ><i class="fas fa-arrow-right"></i> review</a
+          >
+          <a href="#" class="links"><i class="fas fa-arrow-right"></i> blogs</a>
+        </div>
+
+        <div class="box">
+          <h3>newsletter</h3>
+          <p>subscribe for latest updates</p>
+          <input type="email" placeholder="your email" class="email" />
+          <input type="submit" value="subscribe" class="btn" />
+          <img src="assets/cat-1.png" class="payment-img" alt="" />
+        </div>
+      </div>
+
+      <div class="credit">
+        created by <span>kephics</span>
+        | all rights reserved
+      </div>
+    </section>
+    <!-- footer section ends -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="addtocart.js"></script>
+    <script scr="newcart.js"></script>
+  </body>
+</html>
